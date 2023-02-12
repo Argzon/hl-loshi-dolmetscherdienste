@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Dolmetschen",
+    "description": "Wir dolmetschen Ihre Gespräche Telefonate und Verhandlungen...",
+    "image": "/assets/icons/research.png"
+  },
+  {
+    "title": "Dolmetschen für Behörden",
+    "description": "Das Dolmetschen für und bei Behörden (z.B. Gerichte, Ämter, Polizei)...",
+    "image": "/assets/icons/hammer.png"
+  },
+  {
+    "title": "Konsekutivdolmetschen",
+    "description": "Konsekutivdolmetschen auch bilaterales Dolmetschen oder Verhandlungsdolmetschen genannt.",
+    "image": "/assets/icons/research.png"
+  },
+  {
+    "title": "Simultandolmetschen",
+    "description": "Simultandolmetschen bedeutet, dass der Dolmetscher zeitgleich zuhört und übersetzt.",
+    "image": "/assets/icons/translator.png"
+  },
+  {
+    "title": "Telefondolmetschen",
+    "description": "Sie müssen schnell wichtige Fragen mit Ihnen internationalen Partnern klären?",
+    "image": "/assets/icons/call.png"
+  },
+  {
+    "title": "Videodolmetschen",
+    "description": "Das Dolmetschen per Video ist eine sinnvolle Weiterentwicklung des Telefondolmetschens.",
+    "image": "/assets/icons/video-call.png"
+  },
+  {
+    "title": "Übersetzungen",
+    "description": "Wir bieten Ihnen rund um die Uhr und 365 Tage im Jahr Übersetzungen in höchster Qualität...",
+    "image": "/assets/icons/translation.png"
+  },
+  {
+    "title": "Korrektorat",
+    "description": "Der Korrektor nimmt dort seine Arbeit auf, wo die computergestützte Rechtschreib- und...",
+    "image": "/assets/icons/proofreading.png"
+  }
+]
