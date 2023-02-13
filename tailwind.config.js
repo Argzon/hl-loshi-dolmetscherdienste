@@ -9,6 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      desktop: "1140px",
+      tablet: "768px",
+      mobile: "425px",
+    },
     container: {
       center: true,
     },

@@ -6,6 +6,7 @@ import services from "@/data/servicesData.json";
 
 // Image import
 import HajrijeIMG from "../../public/assets/Hajrie-1317x1536.jpg";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   console.log(services);
@@ -16,8 +17,8 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <div className="bg-anotherHeroImage bg-cover h-[732px] text-white flex justify-center items-center">
-        <div className="container">
+      <div className="bg-anotherHeroImage bg-cover tablet:bg-center h-[732px] text-white flex justify-center items-center">
+        <div className="container px-7">
           <h1 className="text-5xl max-w-4xl">
             Hohe professionelle Übersetzungsdienste, denen Sie vertrauen können
           </h1>
@@ -29,7 +30,7 @@ export default function Home() {
       </div>
 
       {/* Intro section */}
-      <div className="container mt-20 flex flex-col items-center text-center">
+      <div className="container px-7 mt-20 flex flex-col items-center text-center">
         <h2 className="text-4xl max-w-5xl">
           Herzlich Willkommen auf den Seiten von
           „HL-Loshi-Dolmetscherdienste.de“ - Ihrem internationalen Dolmetscher -
@@ -46,14 +47,14 @@ export default function Home() {
       </div>
 
       {/* Unsere philosophie */}
-      <div className="container flex gap-9 my-20">
+      <div className="container px-7 flex desktop:flex-row tablet:flex-row mobile:flex-col flex-col gap-9 my-20">
         <Image
           src={HajrijeIMG}
           height="100%"
           alt="Hajrije"
-          className="w-6/12"
+          className="desktop:w-6/12 tablet:w-6/12 mobile:w-full max-h-[600px] object-cover bg-cover"
         />
-        <div className="w-6/12">
+        <div className="desktop:w-6/12 tablet:w-6/12 mobile:w-full">
           <p className="text-sm text-black pb-3">Unsere Philosophie</p>
           <h2 className="text-4xl">
             Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die
@@ -74,10 +75,10 @@ export default function Home() {
       </div>
 
       {/* Warum unseren service wählen */}
-      <div className="bg-homepagesectionBG bg-cover text-white pt-20 pb-16">
+      <div className="bg-homepagesectionBG px-7 bg-fixed bg-cover text-white pt-20 pb-16">
         <div className="container">
           {/* top */}
-          <div className="flex justify-between items-center">
+          <div className="flex desktop:flex-row tablet:flex-col mobile:flex-col flex-col justify-between items-center">
             <div>
               <p className="text-sm pb-3">WARUM UNSEREN SERVICE WÄHLEN</p>
               <h2 className="text-4xl">
@@ -92,7 +93,7 @@ export default function Home() {
             </p>
           </div>
           {/* Bottom */}
-          <div className="grid grid-cols-4 gap-10 mt-10">
+          <div className="grid desktop:grid-cols-4 tablet:grid-cols-2 gap-10 mt-10">
             {services.map((service, i) => (
               <div className="flex" key={i}>
                 <Image
@@ -111,6 +112,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* footer */}
+      <Footer />
     </>
   );
 }
